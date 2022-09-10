@@ -17,7 +17,7 @@ map <leader>gx :VGit toggle_diff_preference<CR>
 " Branch
 map <leader>gc :VGit checkout
 
-
+map <leader>gP :!git push<CR>
 
 function GitCommit() abort
   exec ":!git add %"
